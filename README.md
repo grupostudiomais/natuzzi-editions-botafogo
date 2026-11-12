@@ -27,7 +27,7 @@ Todos os botões abrem o WhatsApp da loja, **(21) 99567-4337**, com uma mensagem
 
 ## Pendências antes de publicar
 
-- [ ] Preencher o horário de funcionamento (procure por `[HORÁRIO DE FUNCIONAMENTO]` no `index.html`).
+- [x] Horário de funcionamento: segunda a sábado, das 10h às 22h; domingo, das 12h às 21h.
 - [ ] Instalar as fontes oficiais **Söhne** e **Söhne Schmal**, licenciadas pela Klim Type Foundry. Enquanto elas não forem instaladas, a página usa as alternativas gratuitas Inter e Barlow Condensed, do Google Fonts.
 - [ ] Confirmar com a loja quais recursos opcionais dos produtos são vendidos no Brasil (relax, Dual Power, Triple-Motion, USB).
 - [ ] Incluir os códigos de rastreamento das campanhas, como Meta Pixel e Google Tag, antes de `</head>`.
