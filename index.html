@@ -14,7 +14,10 @@ a{color:#623B2A}a:hover{color:#3F2519}
 .m-hide{display:none !important}
 .m-hdr{padding:22px 16px !important;justify-content:center !important;flex-wrap:nowrap !important}
 .m-logo{width:104px !important}
-.m-hero{padding:32px 16px 56px !important;gap:32px !important}
+.m-hero{padding:32px 16px 56px !important;gap:0 !important;flex-direction:column !important;align-items:stretch !important}
+.m-hero-txt{display:contents !important}
+.m-hero-img{order:1 !important;flex:none !important}
+.m-hero-btn{order:2 !important;margin-top:28px !important}
 .m-sec{padding-top:64px !important;padding-bottom:64px !important;padding-left:16px !important;padding-right:16px !important;gap:36px !important}
 .m-sec h2{font-size:30px !important}
 .m-hero h1{font-size:38px !important}
@@ -41,19 +44,19 @@ a{color:#623B2A}a:hover{color:#3F2519}
 </header>
 
 <section class="m-hero" style="max-width: 1240px; margin: 0 auto; padding: 72px 24px 96px; display: flex; flex-wrap: wrap; gap: 56px; align-items: center;">
-<div style="flex: 1 1 440px; min-width: 0;">
+<div class="m-hero-txt" style="flex: 1 1 440px; min-width: 0;">
 <p style="margin: 0 0 28px; font-size: 13px; letter-spacing: 0.2em; font-weight: 500;">NATUZZI EDITIONS · CASA E GOURMET BOTAFOGO</p>
 <div style="display: flex; gap: 24px; align-items: stretch; margin-bottom: 32px;">
 <div aria-hidden="true" style="width: 8px; flex-shrink: 0; background: #623B2A;"></div>
 <h1 style="margin: 0; font-family: 'Söhne Schmal', 'Barlow Condensed', sans-serif; font-weight: 600; font-size: clamp(40px, 4.6vw, 66px); line-height: 1; text-transform: uppercase; letter-spacing: -0.005em;">A Itália mora no detalhe. Agora, em Botafogo.</h1>
 </div>
 <p style="margin: 0 0 40px; font-size: 19px; max-width: 520px;">Sofás, poltronas e camas com design nascido na Puglia, no sul da Itália, e pensados para o conforto de todos os dias. Venha sentir cada peça no nosso showroom.</p>
-<div style="display: flex; flex-wrap: wrap; gap: 14px;">
+<div class="m-hero-btn" style="display: flex; flex-wrap: wrap; gap: 14px;">
 <a href="https://wa.me/5521995674337?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20visita%20ao%20showroom%20Natuzzi%20Editions%20Botafogo." style="display: inline-flex; align-items: center; min-height: 40px; padding: 0 24px; background: #623B2A; color: #FFFFFF; text-decoration: none; font-family: 'Söhne Schmal', 'Barlow Condensed', sans-serif; font-size: 15px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase;">Agendar minha visita</a>
 <a href="#colecao" style="display: inline-flex; align-items: center; min-height: 40px; padding: 0 24px; border: 1px solid #623B2A; color: #623B2A; text-decoration: none; font-family: 'Söhne Schmal', 'Barlow Condensed', sans-serif; font-size: 15px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase;">Conhecer a coleção</a>
 </div>
 </div>
-<div style="flex: 1 1 520px; min-width: 0;">
+<div class="m-hero-img" style="flex: 1 1 520px; min-width: 0;">
 <img src="assets/hero-sala.jpg" fetchpriority="high" alt="Sala de estar com sofá Natuzzi Editions em couro, com um dos assentos reclinado" style="display: block; width: 100%; aspect-ratio: 4 / 5; max-height: 680px; object-fit: cover; background: #EFE9E6;">
 </div>
 </section>
