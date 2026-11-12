@@ -22,6 +22,8 @@ a{color:#623B2A}a:hover{color:#3F2519}
 .m-sec h2{font-size:30px !important}
 .m-hero h1{font-size:38px !important}
 }
+@media (max-width: 1000px){.m-band{flex-wrap:wrap !important;gap:22px 48px !important;justify-content:flex-start !important;padding:32px 24px !important}.m-tech{flex-basis:100% !important;flex-wrap:wrap !important;gap:16px 32px !important;border-left:0 !important;padding-left:0 !important;border-top:1px solid #8C6A5C !important;padding-top:22px !important}}
+@media (max-width: 640px){.m-band{flex-direction:column !important;align-items:flex-start !important;padding:32px 16px !important}.m-tech > p{flex-basis:100% !important}}
 .wa-float{transition:transform .2s ease}.wa-float:hover{transform:scale(1.06)}@media (max-width:640px){.wa-float{right:16px !important;bottom:16px !important;width:56px !important;height:56px !important}}
 .tex{background-image:url(assets/textura-linho.png) !important;background-repeat:repeat !important;background-size:240px 240px !important}
 </style>
@@ -62,18 +64,23 @@ a{color:#623B2A}a:hover{color:#3F2519}
 </section>
 
 <section aria-label="Destaques da marca" style="background: #623B2A; color: #FFFFFF;">
-<div style="max-width: 1240px; margin: 0 auto; padding: 44px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 32px;">
-<div>
-<p style="margin: 0; font-family: 'Söhne Schmal', 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 32px; line-height: 1; text-transform: uppercase;">Desde 1959</p>
-<p style="margin: 8px 0 0; font-size: 14px; color: #E0D6D1;">Uma história de família italiana</p>
+<div class="m-band" style="max-width: 1240px; margin: 0 auto; padding: 24px 24px; display: flex; align-items: center; justify-content: space-between; gap: 32px;">
+<div style="flex-shrink: 0;">
+<p style="margin: 0; font-family: 'Söhne Schmal', 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 24px; line-height: 1; text-transform: uppercase;">Desde 1959</p>
+<p style="margin: 5px 0 0; font-size: 12px; color: #E0D6D1;">Uma história de família italiana</p>
 </div>
-<div>
-<p style="margin: 0; font-family: 'Söhne Schmal', 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 32px; line-height: 1; text-transform: uppercase;">Puglia, Itália</p>
-<p style="margin: 8px 0 0; font-size: 14px; color: #E0D6D1;">Onde a marca nasceu e cresceu</p>
+<div style="flex-shrink: 0;">
+<p style="margin: 0; font-family: 'Söhne Schmal', 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 24px; line-height: 1; text-transform: uppercase;">Feito à mão</p>
+<p style="margin: 5px 0 0; font-size: 12px; color: #E0D6D1;">O saber fazer de artesãos</p>
 </div>
-<div>
-<p style="margin: 0; font-family: 'Söhne Schmal', 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 32px; line-height: 1; text-transform: uppercase;">Feito à mão</p>
-<p style="margin: 8px 0 0; font-size: 14px; color: #E0D6D1;">O saber fazer de artesãos</p>
+<div class="m-tech" style="display: flex; align-items: center; gap: 28px; border-left: 1px solid #8C6A5C; padding-left: 32px; min-width: 0;">
+<p style="margin: 0; font-size: 11px; letter-spacing: 0.18em; font-weight: 500; color: #E0D6D1; line-height: 1.5;">TECNOLOGIAS<br>NATUZZI</p>
+<div style="display: flex; align-items: center; gap: 12px; min-width: 0;">
+<img src="assets/ergocert-branco.png" alt="ErgoCert – Ergonomics Certifying Institute" style="display: block; width: 104px; height: 34px; flex-shrink: 0; object-fit: contain;">
+</div>
+<div style="display: flex; align-items: center; gap: 12px; min-width: 0;">
+<p aria-label="Cubicomfort" style="margin: 0; flex-shrink: 0; font-family: 'Söhne Schmal', 'Barlow Condensed', sans-serif; font-weight: 600; font-size: 21px; line-height: 1; letter-spacing: 0.02em; text-transform: uppercase; color: #FFFFFF; white-space: nowrap;">Cubicomfort<sup style="font-size: 9px; font-weight: 500; vertical-align: top; margin-left: 1px;">™</sup></p>
+</div>
 </div>
 </div>
 </section>
